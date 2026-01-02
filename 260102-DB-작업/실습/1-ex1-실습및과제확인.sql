@@ -5,6 +5,7 @@ SELECT JOB FROM EMP;
 
 -- 2) 직무 + 부서번호 조합의 고유 데이터 추출  (직무,부서번호)
 SELECT DISTINCT JOB, DEPTNO FROM EMP;
+SELECT DISTINCT DEPTNO FROM EMP;
 
 
 -- 3) 중복 포함하여 전체 출력(직무,부서번호)
